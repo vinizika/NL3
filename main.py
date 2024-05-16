@@ -4,6 +4,8 @@ print('Gabriel Koiama - RA: 24.123.051-5')
 print('João Pedro Peterutto - RA: 24.123.045-7')
 print('João Pedro Lopes - RA: 24.123.071-3')
 print('Vinicius Duarte - RA: 24.123.073-9\n')
+print("O programa em questao foi criado para adquirir as intensidades em um sistema que pode conter ate 3 polarizadores. \nO principal conceito físico utilizado foi a Lei de Malus, determinando a intensidade por diferentes angulos ao longo dos polarizadores.
+\nFoi seguido a risca o modelo de entradas e saidas propostos pela Professora Sueli Masunaga. \n")
 
 def menu():
     print("Estudo da polarização da luz com programação \n")
