@@ -32,8 +32,8 @@ def calc2():
         cossenoAngulo = math.cos(math.radians(angulo))
         I2 = I1 * cossenoAngulo**2
 
-        print(f"\nIntensidade da luz apos o primeiro polarizador (I1): {I1:.2f} W/cm²")
-        print(f"Intensidade da luz apos o conjunto de polarizadores (I2): {I2:.2f} W/cm²\n")
+        print(f"\nIntensidade da luz apos o primeiro polarizador (I1): {I1:.3f} W/cm²")
+        print(f"Intensidade da luz apos o conjunto de polarizadores (I2): {I2:.3f} W/cm²\n")
 
     elif escolha == 1:
         theta1 = float(input("Angulo do primeiro polarizador (em graus): "))
@@ -45,8 +45,8 @@ def calc2():
         cossenoAngulo = math.cos(math.radians(angulo))
         I2 = I1 * cossenoAngulo**2
 
-        print(f"\nIntensidade da luz incidente (I0): {I0:.2f} W/cm²")
-        print(f"Intensidade da luz apos o conjunto de polarizadores (I2): {I2:.2f} W/cm²\n")
+        print(f"\nIntensidade da luz incidente (I0): {I0:.3f} W/cm²")
+        print(f"Intensidade da luz apos o conjunto de polarizadores (I2): {I2:.3f} W/cm²\n")
 
     elif escolha == 2:
         theta1 = float(input("Angulo do primeiro polarizador (em graus): "))
@@ -58,8 +58,8 @@ def calc2():
         I1 = I2 / cossenoAngulo**2
         I0 = I1 * 2
 
-        print(f"\nIntensidade da luz incidente (I0): {I0:.2f} W/cm²")
-        print(f"Intensidade da luz apos o primeiro polarizador (I1): {I1:.2f} W/cm²\n")
+        print(f"\nIntensidade da luz incidente (I0): {I0:.3f} W/cm²")
+        print(f"Intensidade da luz apos o primeiro polarizador (I1): {I1:.3f} W/cm²\n")
     
 def calc3():
     print("[0] Entrada: θ1, θ2, θ3 e I0")
@@ -82,9 +82,9 @@ def calc3():
         I2 = I1 * cossenoAngulo1**2
         I3 = I2 * cossenoAngulo2**2
 
-        print(f"\nIntensidade da luz apos o primeiro polarizador (I1): {I1:.2f} W/cm²")
-        print(f"Intensidade da luz apos o segundo polarizador (I2): {I2:.2f} W/cm²")
-        print(f"Intensidade da luz apos o conjunto de polarizadores (I3): {I3:.2f} W/cm²\n")
+        print(f"\nIntensidade da luz apos o primeiro polarizador (I1): {I1:.3f} W/cm²")
+        print(f"Intensidade da luz apos o segundo polarizador (I2): {I2:.3f} W/cm²")
+        print(f"Intensidade da luz apos o conjunto de polarizadores (I3): {I3:.3f} W/cm²\n")
 
     elif escolha == 1:
         theta1 = float(input("Angulo do primeiro polarizador (em graus): "))
@@ -100,9 +100,9 @@ def calc3():
         I2 = I1 * cossenoAngulo1**2
         I3 = I2 * cossenoAngulo2**2
 
-        print(f"\nIntensidade da luz incidente (I0): {I0:.2f} W/cm²")
-        print(f"Intensidade da luz apos o segundo polarizador (I2): {I2:.2f} W/cm²")
-        print(f"Intensidade da luz apos o conjunto de polarizadores (I3): {I3:.2f} W/cm²\n")
+        print(f"\nIntensidade da luz incidente (I0): {I0:.3f} W/cm²")
+        print(f"Intensidade da luz apos o segundo polarizador (I2): {I2:.3f} W/cm²")
+        print(f"Intensidade da luz apos o conjunto de polarizadores (I3): {I3:.3f} W/cm²\n")
 
     elif escolha == 2:
         theta1 = float(input("Angulo do primeiro polarizador (em graus): "))
@@ -118,9 +118,9 @@ def calc3():
         I0 = I1 * 2
         I3 = I2 * cossenoAngulo2**2
 
-        print(f"\nIntensidade da luz incidente (I0): {I0:.2f} W/cm²")
-        print(f"Intensidade da luz apos o primeiro polarizador (I1): {I1:.2f} W/cm²")
-        print(f"Intensidade da luz apos o conjunto de polarizadores (I3): {I3:.2f} W/cm²\n")
+        print(f"\nIntensidade da luz incidente (I0): {I0:.3f} W/cm²")
+        print(f"Intensidade da luz apos o primeiro polarizador (I1): {I1:.3f} W/cm²")
+        print(f"Intensidade da luz apos o conjunto de polarizadores (I3): {I3:.3f} W/cm²\n")
 
     elif escolha == 3:
         theta1 = float(input("Angulo do primeiro polarizador (em graus): "))
@@ -136,9 +136,9 @@ def calc3():
         I1 = I2 / cossenoAngulo1**2
         I0 = I1 * 2
 
-        print(f"\nIntensidade da luz incidente (I0): {I0:.2f} W/cm²")
-        print(f"Intensidade da luz apos o primeiro polarizador (I1): {I1:.2f} W/cm²")
-        print(f"Intensidade da luz apos o segundo polarizador (I2): {I2:.2f} W/cm²\n")
+        print(f"\nIntensidade da luz incidente (I0): {I0:.3f} W/cm²")
+        print(f"Intensidade da luz apos o primeiro polarizador (I1): {I1:.3f} W/cm²")
+        print(f"Intensidade da luz apos o segundo polarizador (I2): {I2:.3f} W/cm²\n")
 
 
 while True:
